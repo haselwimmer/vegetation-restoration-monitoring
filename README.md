@@ -1,5 +1,5 @@
-# Mine Vegetation Restoration Monitoring
-This is a repository for my Earth Analytics capstone project focused on the use of remote sensing and climate/weather data to monitor vegetation restoration at McKinley Mine in New Mexico.
+# Vegetation Restoration Monitoring
+This is a repository for my Earth Analytics capstone project focused on the use of remote sensing and climate/weather data to monitor vegetation restoration at McKinley Mine in New Mexico. The goal of this 
 
 1. What is the purpose of this repository?
 
