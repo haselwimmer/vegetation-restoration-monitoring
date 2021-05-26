@@ -17,12 +17,6 @@ This is a repository for my Earth Analytics capstone project focused on the use 
 * folium
 * sentinelhub
 
-## Analysis Workflow
-1. Run the notebooks in final_notebooks in sequential order; specifics to follow...
-
-## Example Usage
-* working_notebooks/rs_time_series_seeding_units.ipynb: uses input shapefile for different seeding units to calculate NDVI time series, alter the start date to change the beginning of the Sentinel 2 time series
-
 ## Setup
 
 To set up this repository, you will need to:
@@ -36,11 +30,11 @@ To setup the project environment, first,  make sure that anaconda or
 Miniconda are installed on your machine. We prefer miniconda for this Environment
 but either should work. Then,
 
-1. In bash, `cd` to the `ea-demo-workflow` repo
+1. In bash, `cd` to the `vegetation-restoration-monitoring` repo
 2. Install the environment file
 
 ```
-$ cd ea-demo-workflow
+$ cd vegetation-restoration-monitoring
 $ conda env create -f environment.yml
 ```
 
@@ -49,7 +43,7 @@ $ conda env create -f environment.yml
 Activate your workflow environment:
 
 ```bash
-$ conda activate demo-workflow-env
+$ conda activate earth-analytics-python
 ```
 
 Install the included Python package.
@@ -61,21 +55,19 @@ $ pip install -e .
 
 ### Run the Bash Script To Create the Final Blog Post
 
-The bash script runs both of the notebooks in the `code` directory, and
-creates an `images` directory that is used to create the final `blog.html`
-output. To run the bash script, you have to ensure you are in the `code`
-directory within `ea-demo-workflow`.
+The bash script runs the 'final_blog' notebook in the 'final_notebooks' directory. To run the bash script, you have to ensure you are in the `final_notebooks`
+directory within `vegetation-restoration-monitoring`.
 
 First, activate the workflow environment:
 
 ```
-$ conda activate demo-workflow-env
+$ conda activate earth-analytics-python
 ```
 
-Then, make sure you are in the workflow directory. Run the main workflow:
+Then, make sure you are in the 'final_blog' directory. Run the main workflow:
 
 ```
-$ cd ea-demo-workflow
+$ cd vegetation-restoration-monitoring
 
 ```
 ##  Run Workflow Using Bash Directly
@@ -86,4 +78,4 @@ Now you should be able to run the bash script without any errors.
 $ . main.sh
 ```
 
-The final output, `blog.html`, will be in the `outputs` directory.
+The final output, `final_blog.html`, will be in the `final_notebooks` directory.
