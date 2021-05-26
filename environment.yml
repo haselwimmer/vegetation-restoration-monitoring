@@ -1,0 +1,5 @@
+name: earth-analytics-python
+channels:
+  - conda-forge
+  - defaults
+prefix: C:\Users\ekqo\Miniconda3\envs\earth-analytics-python\envs\earth-analytics-python
