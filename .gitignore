@@ -130,3 +130,6 @@ dmypy.json
 
 # Ignore data directory
 data/*
+
+# Ignore ini
+*.ini
