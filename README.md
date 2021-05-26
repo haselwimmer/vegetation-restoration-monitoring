@@ -68,7 +68,6 @@ Then, make sure you are in the 'final_blog' directory. Run the main workflow:
 
 ```
 $ cd vegetation-restoration-monitoring
-
 ```
 ##  Run Workflow Using Bash Directly
 
