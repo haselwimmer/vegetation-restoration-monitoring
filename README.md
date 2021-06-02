@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/366880764.svg)](https://zenodo.org/badge/latestdoi/366880764)
+
 # Vegetation Restoration Monitoring
 This is a repository for my Earth Analytics capstone project focused on the use of remote sensing and climate/weather data to monitor vegetation restoration at McKinley Mine in New Mexico. The goal of this project is to monitor the the trajectory of vegetation restoration measures using statistical modeling of a time series of remote sensing (Sentinel 2, Landsat 8) and weather/climate data. Through the case study of McKinley Mine the project will develop methods and workflows that focus specifically on restoration of arid rangeland environments. The developed workflows have potential to be applied to similar restoration contexts or be adapted to additional study sites.
 
