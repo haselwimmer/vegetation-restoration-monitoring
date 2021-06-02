@@ -1,5 +1,28 @@
-name: earth-analytics-python
+name: veg-restore
 channels:
   - conda-forge
   - defaults
-prefix: C:\Users\ekqo\Miniconda3\envs\earth-analytics-python\envs\earth-analytics-python
+  
+dependencies:
+  - python=3.7
+  - pip
+  - configparser
+  # Core scientific python
+  - numpy
+  - matplotlib
+
+  # Spatial packages
+  - rasterio  
+  - rasterstats
+  - geopandas
+  - rioxarray
+  - contextily
+  - folium
+  - sentinelhub
+
+  # Jupyter Environment
+  - autopep8
+  - jupyterlab
+  - notebook
+  - ipython
+  - jupyter_contrib_nbextensions
