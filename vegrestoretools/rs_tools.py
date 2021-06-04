@@ -138,7 +138,7 @@ def EvalScripts(name):
         //VERSION=3
         function setup() {
           return {
-            input: ["B04","B08", "CLM", "SNW"],
+            input: ["B04", "B08", "CLM", "SNW"],
             output: {bands: 3, sampleType: "FLOAT32"}
           }
         }
@@ -154,13 +154,14 @@ def EvalScripts(name):
         //VERSION=3
         function setup() {
           return {
-            input: ["B04","B05"],
-            output: {bands: 1, sampleType: "FLOAT32"}
+            input: ["B03", "B04", "B05", "B06", "BQA"],
+            output: {bands: 3, sampleType: "FLOAT32"}
           }
         }
 
         function evaluatePixel(sample) {
-          return [(sample.B05-sample.B04)/(sample.B05+sample.B04)];
+          return [[(sample.B05-sample.B04)/(sample.B05+sample.B04)], [decodeLs8Qa(sample.BQA).cloud],
+              [(sample.B03-sample.B05)/(sample.B03+sample.B06)]];
         }
         """
         return evalscript
