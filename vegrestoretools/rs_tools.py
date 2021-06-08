@@ -161,7 +161,7 @@ def EvalScripts(name):
 
         function evaluatePixel(sample) {
           return [[(sample.B05-sample.B04)/(sample.B05+sample.B04)], [decodeLs8Qa(sample.BQA).cloud],
-              [(sample.B03-sample.B05)/(sample.B03+sample.B06)]];
+              [(sample.B03-sample.B06)/(sample.B03+sample.B06)]];
         }
         """
         return evalscript
