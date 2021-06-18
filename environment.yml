@@ -20,6 +20,9 @@ dependencies:
   - contextily
   - folium
   - sentinelhub
+  
+  # Machine learning
+  - sktime
 
   # Jupyter Environment
   - autopep8
