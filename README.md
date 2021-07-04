@@ -29,7 +29,7 @@ This is a repository for my Earth Analytics capstone project focused on the use 
 To set up this repository, you will need to:
 
 1. Create the conda environment included in the repository, and
-2. run the `main` bash script.
+2. install the included python package (vegrestoretools)
 
 ### Conda Environment Setup
 
