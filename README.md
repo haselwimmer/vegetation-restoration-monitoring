@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/366880764.svg)](https://zenodo.org/badge/latestdoi/366880764)
 
 # Vegetation Restoration Monitoring
-This is a repository for my Earth Analytics capstone project focused on the use of remote sensing and climate/weather data to monitor vegetation restoration at McKinley Mine in New Mexico. The goal of this project is to monitor the the trajectory of vegetation restoration measures using a time series of NDVI from Landsat 8 and by comparing this with meteorological data. Through the case study of McKinley Mine the project will develop methods and workflows that focus specifically on restoration of arid rangeland environments. The developed workflows have potential to be applied to similar restoration contexts or be adapted to additional study sites.
+This is a repository for my Earth Analytics capstone project focused on the use of remote sensing and climate/weather data to monitor vegetation restoration at McKinley Mine in New Mexico. The goal of this project is to monitor the trajectory of vegetation restoration measures using a time series of NDVI from Landsat 8 and by comparing this with meteorological data. Through the case study of McKinley Mine the project will develop methods and workflows that focus specifically on restoration of arid rangeland environments. The developed workflows have potential to be applied to similar restoration contexts or be adapted to additional study sites.
 
 ## Description of the Repository 
 * notebooks: sequentially numbered notebooks to duplicate the analysis
@@ -75,11 +75,12 @@ The workflow can be run either by running the notebooks sequentially or using th
 3. Clean and smooth the time series data with: notebooks/3-preprocess-rs-timeseries.ipynb
 4. Download meteorological data with: notebooks/4-meteorology-timeseries.ipynb
 5. Integrate and clean the NDVI and meteorological time series data with: notebooks/5-data-integration-analysis.ipynb
-6. Create the final blog post with: notebooks/6-final_blog.ipynb
+6. Create plots with: notebooks/6-plotting.ipynb
+7. Create the final blog post with: notebooks/7-final_blog.ipynb
 
 ### Run the Bash Script To Create the Final Blog Post
 
-The bash script runs the '6-final_blog' notebook in the 'notebooks' directory. To run the bash script, you have to ensure you are in the `notebooks` directory within `vegetation-restoration-monitoring`.
+The bash script runs the '7-final_blog' notebook in the 'notebooks' directory. To run the bash script, you have to ensure you are in the `notebooks` directory within `vegetation-restoration-monitoring`.
 
 First, activate the workflow environment:
 
@@ -99,4 +100,4 @@ Now you should be able to run the bash script without any errors.
 $ . main.sh
 ```
 
-The final output, `6-final_blog.html`, will be in the `notebooks` directory.
+The final output, `7-final_blog.html`, will be in the `notebooks` directory.
