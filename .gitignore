@@ -130,6 +130,3 @@ dmypy.json
 
 # Ignore data directory
 working_notebooks/*
-
-# Ignore ini
-*.ini
