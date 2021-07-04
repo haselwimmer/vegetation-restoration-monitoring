@@ -70,6 +70,12 @@ $ pip install -e .
 The workflow can be run either by running the notebooks sequentially or using the bash script.
 
 ### Run the notebooks sequentially
+Make sure you are in the `notebooks` directory within the `vegetation-restoration-monitoring` directory:
+
+```
+$ cd notebooks
+```
+Then run the following Jupyter notebooks in turn:
 1. Import and processing the seeding unit vectors with: notebooks/1-process-seeding-unit-vectors.ipynb
 2. Download Landsat 8 NDVI data and create time series with: notebooks/2-landsat-time-series.ipynb
 3. Clean and smooth the time series data with: notebooks/3-preprocess-rs-timeseries.ipynb
@@ -80,7 +86,7 @@ The workflow can be run either by running the notebooks sequentially or using th
 
 ### Run the Bash Script To Create the Final Blog Post
 
-The bash script runs all of the jupyter notebooks in the `notebooks` directory within `vegetation-restoration-monitoring`.
+The bash script runs all of the jupyter notebooks in the `notebooks` directory within `vegetation-restoration-monitoring` directory.
 
 First, activate the workflow environment:
 
