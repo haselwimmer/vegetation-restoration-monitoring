@@ -11,6 +11,7 @@ dependencies:
   - numpy
   - matplotlib
   - copy
+  - plotly
 
   # Spatial packages
   - rasterio  
@@ -20,6 +21,7 @@ dependencies:
   - contextily
   - folium
   - sentinelhub
+  - ee
   
   # Machine learning
   - sktime
