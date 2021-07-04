@@ -80,18 +80,12 @@ The workflow can be run either by running the notebooks sequentially or using th
 
 ### Run the Bash Script To Create the Final Blog Post
 
-The bash script runs the '7-final_blog' notebook in the 'notebooks' directory. To run the bash script, you have to ensure you are in the `notebooks` directory within `vegetation-restoration-monitoring`.
+The bash script runs all of the jupyter notebooks in the `notebooks` directory within `vegetation-restoration-monitoring`.
 
 First, activate the workflow environment:
 
 ```
 $ conda activate veg-restore
-```
-
-Then, make sure you are in the 'notebooks' directory. Run the main workflow:
-
-```
-$ cd notebooks
 ```
 
 Now you should be able to run the bash script without any errors.
