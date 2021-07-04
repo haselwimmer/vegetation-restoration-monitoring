@@ -10,7 +10,6 @@ dependencies:
   # Core scientific python
   - numpy
   - matplotlib
-  - copy
   - plotly
 
   # Spatial packages
@@ -21,7 +20,7 @@ dependencies:
   - contextily
   - folium
   - sentinelhub
-  - ee
+  - earthengine-api
   
   # Machine learning
   - sktime
